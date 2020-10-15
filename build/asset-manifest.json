@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.875cd523.chunk.css",
+    "main.js": "/static/js/main.2ae7c21b.chunk.js",
+    "main.js.map": "/static/js/main.2ae7c21b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a9e8376a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a9e8376a.js.map",
+    "static/css/2.9e729a96.chunk.css": "/static/css/2.9e729a96.chunk.css",
+    "static/js/2.53f8af05.chunk.js": "/static/js/2.53f8af05.chunk.js",
+    "static/js/2.53f8af05.chunk.js.map": "/static/js/2.53f8af05.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9f05dd9176486c3f42e1ff0c4cf5aba3.js": "/precache-manifest.9f05dd9176486c3f42e1ff0c4cf5aba3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.9e729a96.chunk.css.map": "/static/css/2.9e729a96.chunk.css.map",
+    "static/css/main.875cd523.chunk.css.map": "/static/css/main.875cd523.chunk.css.map",
+    "static/media/font-awesome.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/bootstrap.css": "/static/media/glyphicons-halflings-regular.fa277232.woff",
+    "static/media/ionicons.css": "/static/media/ionicons.ef4a9f28.ttf"
+  }
+}
