@@ -1,0 +1,86 @@
+.educationItem{
+    position:relative;
+    margin-top: 40px;
+    border-left:6px solid var(--second-color);
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    padding-bottom: 10px;
+    background-color: #fff;
+    padding:10px;
+    height:180px;
+} 
+.educationItemInstituition{
+    font-size:13px;
+    min-width:200px;
+    font-weight: 700;
+}
+.educationItemCourse{
+    height:40px;
+    width:100%;
+    text-align: center;
+}
+.educationItemDate{
+    overflow: hidden;
+    width: 120px;
+    float:right;
+}
+.educationItemIcon{
+    font-size: 24px;
+    margin-right:10px;
+}
+.educationTable{
+    width:calc(100% - 40px);;
+    bottom:10px;
+    position: relative;
+}
+.educationItemSummary{
+    height:80px;
+    text-align: justify;
+    text-justify: inter-word; 
+}
+.education-title{
+    font-size: 14px;
+    font-weight: 400;
+    color:var(--second-color);
+    /* text-shadow:2px 2px 4px rgba(0,0,0,0.6); */
+    z-index: 9999;
+    width:23vw;
+    height:60px;
+    vertical-align: middle;
+    margin: -32px 0 20px 0;
+    overflow: hidden;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    background-color: #2b2c2c;
+    padding: 10px 10px 10px 10px;
+    position:relative;
+    display:table;
+}
+.education-title> span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+.education-title-inner{
+    vertical-align: middle;
+    display: table-cell;
+} 
+@media only screen and (max-width: 600px) {
+    .education-title{
+        width:80vw;
+        text-align: center;
+    }
+    .education-inner{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .education-container{
+        padding:calc(5vw - 3px);
+    }
+    .education-title-inner{
+        text-align: center;
+    } 
+    .educationItemDate{
+        max-width: 110px;
+        overflow:hidden;
+        margin-left:-5px;
+    }
+}

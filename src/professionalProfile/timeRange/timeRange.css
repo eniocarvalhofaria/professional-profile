@@ -1,0 +1,17 @@
+.timeRange{
+    width:200px;
+    padding: 10px;
+    position:relative;
+}
+.dateCell{
+color: var(--header-color);
+font-size: 12px;
+text-align: center;
+padding: 0 4px 0 4px;
+}
+.endDateCell{
+border-left: 1px solid var(--header-color);
+} 
+.calendar{
+    font-size: 24px;
+}

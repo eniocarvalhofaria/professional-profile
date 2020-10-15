@@ -1,0 +1,69 @@
+.langImg{
+    margin:0;
+    width:64px;
+}
+.langName{
+    padding:10px;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.langItem{
+    position:relative;
+    margin-top: 40px;
+    border-left:6px solid var(--second-color);
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    background-color: #fff;
+    padding:10px;
+    height:80px;
+  
+}
+.langTable{
+    width:100%;
+    
+}
+.langLevelName{
+    text-align: center;
+}
+.langGrid{
+    height:80px;
+} 
+/* .langLevelName{
+    height:100px;
+} */
+.langCell{
+    width:20px;
+    max-width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+
+}
+.langLevel{
+    float:right;
+    margin-right: 20px;
+    margin-top:10px;
+}
+@media only screen and (max-width: 600px) {
+    .languageSelector{
+        left: calc(50vw - 112px);
+    }
+    .langCell{
+        padding-right:5px;
+        width:auto;
+    }
+    .langLevel{
+        float:right;
+        margin-right: 0px;
+    }
+    .langName{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .langItem>.row>.col-xs-4{
+        padding:0;
+    }
+    .langGrid{
+        height:64px;
+    }
+}

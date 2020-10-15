@@ -1,0 +1,126 @@
+:root{
+    /* --header-color: #00aa9c ; */
+    --header-color: #002453 ;
+    --header-font-color:#fff;
+    --second-color:#80ff00;
+}
+a:hover{
+    color:var(--second-color)
+}
+.profile-image{
+    max-height: 360px;
+    float:right;
+}
+.profile-name{
+    text-align: left;
+    font-size:32px;
+    background: var(--header-color);
+    /* color:var(--header-font-color); */
+    color:var(--second-color);
+    text-shadow:2px 2px 4px rgba(0,0,0,0.6);
+    margin-top: 4vw;
+}
+.contact-grid{
+    padding-left: 0;
+}
+.profile-role{
+    text-align: left;
+    font-size:18px;
+    color:var(--header-font-color);
+}
+.header{
+    font-family: 'Open Sans', sans-serif;
+    width:80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vw;
+    background: #fff;
+    z-index: 1000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    background-color: var(--header-color);
+ 
+}
+.profile-locationTarget{
+    color:#fff;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.contact{
+    color:#fff;
+    margin-bottom: 8px;
+} 
+
+.contact > i{
+    margin-right: 5px;
+
+}
+.contact-container{
+    margin-top:20px;
+    margin-bottom: 4vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .header{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        width:90vw;
+    }
+    .profile-name{
+        font-size:24px;
+        text-align: center;
+    }
+    .profile-role{
+        text-align: center;
+        font-size:13px;
+    }
+    body{
+        font-size:12px; 
+    }
+    .profile-image{
+        max-height: 90vw;
+        float:none;
+        margin-left:0px;
+    }
+    .profile-locationTarget{
+        margin-left:5vw;
+    }
+    .contact-container{
+        margin-left:5vw;
+    }
+  }
+  @media print{
+    .profile-image{
+        height: 100%;
+        width:100%;
+        float:right;
+        margin-left:0px;
+    } 
+    .header-text{
+        width:12cm; 
+        margin:0;
+    }
+    .contact-container{
+        margin-bottom: 0;
+    }
+    .profile-name{
+        margin-top: 0;
+    }
+    .header{
+        font-family: 'Open Sans', sans-serif;
+        width:80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 10vw;
+        background: #fff;
+        z-index: 1000;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        overflow: hidden;
+        box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+        background-color: var(--header-color);
+     
+    }
+  }

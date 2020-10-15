@@ -1,0 +1,25 @@
+
+.languageItem{
+    margin:10px 20px 10px 20px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    padding:4px;
+    width:72px;
+    text-align: center;
+    color:#fff;
+} 
+.languageItem:hover{
+    color:var(--second-color)
+}
+.languageSelector{
+    color:#fff;
+    position:fixed;
+    top:0;
+    left: calc(90vw - 224px);
+    z-index: 9999;
+    background-color: #2b2c2c;
+    display:flex;
+} 
+.menuText{
+    color:#fff;
+}

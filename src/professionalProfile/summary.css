@@ -1,0 +1,22 @@
+.summary-panel{
+    font-family: 'Open Sans', sans-serif;
+    width:80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 20px;;
+    z-index: 1000;
+    overflow: hidden;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    background-color: #fff;
+    color:#353535;
+    padding:20px;
+    text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+    .summary-panel{
+        width:90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding:10px;
+    } 
+}

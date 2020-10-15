@@ -1,0 +1,81 @@
+.skill-container{
+    position:relative;
+    margin-top: 40px;
+    border-left:6px solid var(--second-color);
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    padding-bottom: 10px;
+    background-color: #fff;
+    padding:20px;
+}
+.skill-subtitle{
+     border-left:6px solid #2b2c2c;
+   
+}
+.skill-subtitle>.skills-inner>.skills-title{
+    background-color: #fff;
+    color:#2b2c2c;
+}
+.funtional{
+    width:50%;
+}
+.skill{
+    margin-left:10px;
+}
+.skill-level{
+    float:right;
+}
+.skill-level>i{
+    margin: 2px;
+    font-size: 12px;;
+} 
+.skill-name{
+    margin-right: 5px;
+}
+
+.skills-title-programming{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 4px;;
+}
+.skills-title{
+    font-size: 16px;
+    font-weight: 400;
+    color:var(--second-color);
+    /* text-shadow:2px 2px 4px rgba(0,0,0,0.6); */
+    z-index: 9999;
+    width:20vw;
+    margin: -42px 0 15px 0;
+    overflow: hidden;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    background-color: #2b2c2c;
+    padding: 10px 20px 10px 20px;
+    position:relative;
+}
+.skills-group{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;;
+}
+.skills-inner{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .skills-title{
+        width:80vw;
+        text-align: center;
+          }
+    .skills-inner{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .skill-container{
+        padding:calc(5vw - 3px);
+    }
+    .skill-itens-container{
+        margin-left: -15px;
+    }
+}
