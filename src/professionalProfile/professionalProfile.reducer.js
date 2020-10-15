@@ -451,9 +451,9 @@ const INITIAL_STATE = {
     skills:{
         functional:[
             {name:{pt: 'Desenvolvimento de dados' , en: 'Data development'}, level:4},
-            {name:{pt: 'Desenvolvimento back end' , en: 'Back end development'}, level:3},
+            {name:{pt: 'Desenvolvimento back end' , en: 'Back end development'}, level:4},
+            {name:{pt: 'Desenvolvimento API Rest' , en: 'API Rest development'}, level:4},
             {name:{pt: 'Desenvolvimento front end' , en: 'Front end development'}, level:3},
-            {name:{pt: 'Desenvolvimento API Rest' , en: 'API Rest development'}, level:3},
             {name:{pt: 'Análise de dados' , en: 'Data analysis'}, level:3}
         ],
         programming:[
@@ -474,7 +474,8 @@ const INITIAL_STATE = {
                     {name:{pt: 'T-SQL' , en: 'T-SQL'}, level:4},
                     {name:{pt: 'Map Reduce' , en: 'Map Reduce'}, level:2},
                     {name:{pt: 'Spark' , en: 'Spark'}, level:1},
-                    {name:{pt: 'Hadoop' , en: 'Hadoop'}, level:1}
+                    {name:{pt: 'Hadoop' , en: 'Hadoop'}, level:1},
+                    {name:{pt: 'Collibra' , en: 'Collibra'}, level:1}
                 ]
             },          {
                 group:{pt:'Bancos de dados', en:'Databases'},
@@ -522,6 +523,7 @@ const INITIAL_STATE = {
         tools:[
             'Microsoft Office',
             'Visual Studio',
+            'Collibra',
             'Visual Studio Code',
             'SAS',
             'JIRA',
