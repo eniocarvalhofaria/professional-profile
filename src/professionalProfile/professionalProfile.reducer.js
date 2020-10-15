@@ -2,8 +2,8 @@ const INITIAL_STATE = {
     name:'Enio Carvalho de Faria',
     profileImageUrl:'enio-faria.jpg',
     role:{
-        pt:'Profissional de TI | Analista de Negócio', 
-        en:'IT Professional | Business Analyst'
+        pt:'Engenheiro de Software e Dados', 
+        en:'Data and Software Engineer'
     },
     contact: {
         phoneNumber:'+351 934 184 901',
