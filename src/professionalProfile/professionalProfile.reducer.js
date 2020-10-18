@@ -12,8 +12,8 @@ const INITIAL_STATE = {
         emailAddress: 'enio.carvalho.faria@gmail.com',
         },
     locationTarget:{
-        pt:'Residente em Figueira da Foz, trabalhando remotamente (Home Office)', 
-        en:'Resident in Figueira da Foz, working in home'       
+        pt:'Farfetch, trabalho remotamento (Home Office)', 
+        en:'Farfetch, remote working'       
     },
     summary:{
         pt:'Oi, eu sou o Enio. Tenho 19 anos de experiência a desenvolver soluções para o negócio. Neste último ano tenho estado concentrado em desenvolver soluções tecnológicas voltadas para Data Governance: Extração de dados e metadados, transformação, carga, aplicar regras de negócio, conciliação, linhagem dos dados, etc. Tenho experiência também em desenvolvimento web. Reserve alguns minutos para ler meu CV que perceberás minhas competências diferenciadas. Se quiseres me conhecer, terei prazer em falar-te sobre a minha trajetória profissional.',
