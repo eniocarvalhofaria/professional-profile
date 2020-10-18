@@ -12,7 +12,7 @@ const INITIAL_STATE = {
         emailAddress: 'enio.carvalho.faria@gmail.com',
         },
     locationTarget:{
-        pt:'Farfetch, trabalho remotamento (Home Office)', 
+        pt:'Farfetch, trabalho remotamente (Home Office)', 
         en:'Farfetch, remote working'       
     },
     summary:{
